@@ -1,0 +1,2 @@
+part 1: cat input.txt | sed 's/\\\\/%/g'|sed 's/\\x../!/g'|sed 's/\"//g'|wc
+part 2: cat input.txt | sed 's/\\/\\\\/g'|sed 's/\"/\\"/g'|wc
