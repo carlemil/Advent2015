@@ -2,12 +2,12 @@
  * Created by carl on 12/9/15.
  */
 public class Wire {
-    String leftWireId;
-    String rightWireId;
+    String lid;
+    String rid;
     Op op = Op.NOOP;
-    int value = 0;
+    Integer value = null;
 
     public String toString() {
-        return leftWireId + " " + op + " " + rightWireId + " - " + value;
+        return lid + " " + op + " " + rid + " - " + value;
     }
 }
